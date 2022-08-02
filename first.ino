@@ -74,7 +74,11 @@ void task1()
 
         break;
     }
-   
+   default:
+    {
+        Serial.println("Error");
+    }
+    
     }
 }
 
